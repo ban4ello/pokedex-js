@@ -1,0 +1,20 @@
+#poke-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.pokemon-item {
+  display: flex;
+  border: 1px green solid;
+}
+
+.pokemon-item a {
+  padding: 15px;
+}
+
+.pokemon-item .pokemon-img {
+  width: 250px;
+}
